@@ -139,7 +139,7 @@ const Quiz = () => {
                             <h2 className="quiz-title">Quiz Completed!</h2>
                             <p className="quiz-summary">Your Score: {score}</p>
                             <h2 className="quiz-summary">Summary:</h2>
-
+                          
                             {selectedAnswers.map((isCorrect, index) => (
                                 <p key={index} className="quiz-summary-result">
                                     Question {index + 1}: {isCorrect ? 'Correct 🎉✅' : 'Incorrect ❌'}
@@ -148,6 +148,7 @@ const Quiz = () => {
                         </motion.div>
                     )}
                 </AnimatePresence>
+
             </div>
         </div>
     );
