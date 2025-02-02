@@ -35,12 +35,16 @@ cd QuizzApp/Frontend/project1
 npm install
 
 ```
-## Backend Setup (If Applicable)
+## Backend Setup
 To fetch quiz data from a local API, ensure that you have the backend server running. Follow the steps below:
 
 ### Navigate to the Backend Directory
 ```bash
 cd QuizzApp/Server
+```
+### Run the server
+```bash
+node index.js
 ```
 ## Watch the video demo 
 [Watch the Demo Video](Frontend/project1/src/assets/DemoVideo.mp4)
